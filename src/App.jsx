@@ -6,8 +6,8 @@ import StudentProvider from './contexts/student'
 function App() {
   return (
     <StudentProvider>
-    <StudentForm /> 
-    <StudentSection />     
+      <StudentForm /> 
+      <StudentSection />     
     </StudentProvider>
   )
 }
